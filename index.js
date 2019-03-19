@@ -1,9 +1,10 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import {
   View,
   NativeModules,
   requireNativeComponent
 } from 'react-native'
+import PropTypes from 'prop-types'
 
 const { GoogleVRPanoramaManager } = NativeModules
 const { inputType } = GoogleVRPanoramaManager
